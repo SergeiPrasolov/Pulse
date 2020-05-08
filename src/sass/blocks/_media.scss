@@ -62,9 +62,19 @@
             margin-top: 50px;
         }
     }
+
+    h2.title {
+        &_left {
+            font-size: 30px;
+        }    
+    }
 }
 
 @media (max-width: 767px) {
+    .container {
+        max-width: 520px;
+        margin: 0 auto;
+    }
     .header {
         justify-content: space-around;
         &__official {
@@ -97,6 +107,24 @@
             margin-top: 40px;
         }
     }
+    .consult {
+        &__descr {
+            text-align: center !important;
+            
+        }
+    }
+    
+    h2.title {
+        &_left {
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
+    
+    
 }
 @media (max-width: 575px) {
     .header {
@@ -183,5 +211,16 @@
             }
         }
 
+    }
+    .consult {
+        &__descr {
+            text-align: center !important;
+            font-size: 16px !important;
+        }
+    }
+    h2.title {
+        &_left {
+            font-size: 20px;
+        }
     }
 }
