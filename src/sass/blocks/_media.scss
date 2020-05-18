@@ -153,6 +153,13 @@
             margin-top: 40px;
         }
     }
+    .feedbacks{
+        .feedback{
+        margin-bottom: 50px;
+        align-items:center;
+        }
+    }
+    
     
 }
 @media (max-width: 575px) {
@@ -251,6 +258,9 @@
         &_left {
             font-size: 20px;
         }
+        &_feedback{
+            margin-bottom: 40px;
+        }
     }
     .carousel{
         padding: 40px 0;
@@ -262,7 +272,7 @@
         }
     }
     .catalog {
-        padding-bottom: 100px;
+        padding-bottom: 60px;
         &__tabs {
             margin-top: 40px;
             flex-direction: column;
@@ -277,6 +287,29 @@
             margin-bottom: 20px;
             div {
                 line-height: 40px;;
+            }
+        }
+    }
+    .feedbacks{
+        .feedback{
+            flex-direction: column;
+            margin-bottom: 30px;
+            align-items:center;
+            &:last-child{
+            margin-bottom: 40px;
+            }
+            &__content{
+                width: 300px;
+            }
+            &__img{
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            &__content_title, &__content_subtitle{
+                text-align: center;
+            }
+            &__content_text{
+                font-size: 15px;
             }
         }
     }

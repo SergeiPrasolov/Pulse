@@ -1,0 +1,38 @@
+.feedbacks{
+    // padding-bottom: 70px;
+    .feedback{
+        display: flex;
+        margin-bottom: 100px;
+        &:last-child{
+            margin-bottom: 70px;
+        }
+        &__img{
+            margin-right: 61px;
+        }
+        &__content{
+            max-width: 650px;
+            &_title{
+                font-size: 18px;
+                font-weight: 700;
+                text-align: left;
+                color: #0d0d0d;
+            }
+            &_subtitle{
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+                color: #646464;
+            }
+            &_text{
+                font-size: 16px;
+                font-weight: 300;
+                line-height: normal;
+                text-align: left;
+                color: #0d0d0d;
+            }
+        }
+
+    }
+
+
+}
